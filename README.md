@@ -22,14 +22,15 @@ The add-on also adds **Copy Attachment Path** to the item context menu. For a pa
 
 The implementation patches Zotero's internal metadata, sidenav, and duplicate-merge interface components, so upstream UI changes can affect it. Current testing targets macOS. This standalone component has not received a full UI acceptance test. The repository's test script checks JavaScript syntax; no separate behavioral tests were present in the source being extracted.
 
-## Other plugins
+## Related tools
 
-These plugins install independently. No suite is required.
+See the [Zotero Tools main page](https://kvarnelis.github.io/zotero-tools/) for an overview. Each tool installs independently. Book Helper is a separate Mac app.
 
 - [Praetor for Zotero](https://github.com/kvarnelis/zotero-praetor) — Chat with Codex or Claude Code about Zotero items, search indexed text, and review proposed library changes.
 - [NotebookLM Pane for Zotero](https://github.com/kvarnelis/zotero-notebooklm-pane) — Keep Google NotebookLM in the item pane and prepare local PDFs for its upload dialog.
 - [Page View for Zotero](https://github.com/kvarnelis/zotero-page-view) — Add single-page reading, two-page spreads, page fitting, and focus controls to the PDF reader.
 - [Quiet Theme for Zotero](https://github.com/kvarnelis/zotero-quiet-theme) — Switch Zotero’s native appearance and manage a compact interface overlay.
+- [Book Helper](https://github.com/kvarnelis/book-helper) — Identify and rename PDF and DRM-free EPUB books in a native Mac app, with optional Zotero import.
 
 ## Build and check
 
