@@ -1,6 +1,6 @@
 # Compact Pane for Zotero
 
-Compact Pane reduces clutter in Zotero's metadata pane. It shows a smaller set of fields suited to the item type, lets you expand the full field list, and adds a command for copying attachment paths.
+Compact Pane shows selected metadata fields for each item type, with an option to expand the full list. It also adds a command for copying attachment paths.
 
 ## Install
 
@@ -29,7 +29,7 @@ See the [Zotero Tools main page](https://kvarnelis.github.io/zotero-tools/) for 
 - [Praetor for Zotero](https://github.com/kvarnelis/zotero-praetor) — Chat with Codex or Claude Code about Zotero items, search indexed text, and review proposed library changes.
 - [NotebookLM Pane for Zotero](https://github.com/kvarnelis/zotero-notebooklm-pane) — Keep Google NotebookLM in the item pane and prepare local PDFs for its upload dialog.
 - [Page View for Zotero](https://github.com/kvarnelis/zotero-page-view) — Add single-page reading, two-page spreads, page fitting, and focus controls to the PDF reader.
-- [Quiet Theme for Zotero](https://github.com/kvarnelis/zotero-quiet-theme) — Switch Zotero’s native appearance and manage a compact interface overlay.
+- [Quiet Theme for Zotero](https://github.com/kvarnelis/zotero-quiet-theme) — Change Zotero’s colors, typography, and interface spacing.
 - [Book Helper](https://github.com/kvarnelis/book-helper) — Identify and rename PDF and DRM-free EPUB books in a native Mac app, with optional Zotero import.
 
 ## Build and check
