@@ -1,0 +1,19 @@
+{
+  "addons": {
+    "zys-pane@kazys.local": {
+      "updates": [
+        {
+          "version": "0.3.2",
+          "update_link": "https://github.com/kvarnelis/zotero-compact-pane/releases/download/v0.3.2/zotero-compact-pane.xpi",
+          "update_hash": "sha256:9f5051d7cd7f7cb70142c5c45b3023100ee7fd116e4a21535d03d6984b21a8ab",
+          "applications": {
+            "zotero": {
+              "strict_min_version": "9.0",
+              "strict_max_version": "10.0.*"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
