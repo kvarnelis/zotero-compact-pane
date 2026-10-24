@@ -22,6 +22,15 @@ The add-on also adds **Copy Attachment Path** to the item context menu. For a pa
 
 The implementation patches Zotero's internal metadata, sidenav, and duplicate-merge interface components, so upstream UI changes can affect it. Current testing targets macOS. This standalone component has not received a full UI acceptance test. The repository's test script checks JavaScript syntax; no separate behavioral tests were present in the source being extracted.
 
+## Other plugins
+
+These plugins install independently. No suite is required.
+
+- [Praetor for Zotero](https://github.com/kvarnelis/zotero-praetor) — Chat with Codex or Claude Code about Zotero items, search indexed text, and review proposed library changes.
+- [NotebookLM Pane for Zotero](https://github.com/kvarnelis/zotero-notebooklm-pane) — Keep Google NotebookLM in the item pane and prepare local PDFs for its upload dialog.
+- [Page View for Zotero](https://github.com/kvarnelis/zotero-page-view) — Add single-page reading, two-page spreads, page fitting, and focus controls to the PDF reader.
+- [Quiet Theme for Zotero](https://github.com/kvarnelis/zotero-quiet-theme) — Switch Zotero’s native appearance and manage a compact interface overlay.
+
 ## Build and check
 
 Building requires a Unix shell, `zip`, and Python 3. Syntax checks and any included unit tests require Node.js. End users installing an XPI do not need these developer tools.
